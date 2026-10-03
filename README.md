@@ -69,7 +69,7 @@ These are results on synthetic data. They are not hospital forecasts.
 
 ## Dataset
 
-AI in Emergency Medicine - Turkiye (AI-EMT), Kaggle competition data, downloaded on 2026-10-01. Source: [add Kaggle URL]. Licence: [add the exact licence wording from the Kaggle page]. The dataset is **not** included in this repository.
+AI in Emergency Medicine - Turkiye (AI-EMT), Kaggle competition data, downloaded on 2026-10-01. 
 
 | File | Rows | Columns | Use in this project |
 |---|---:|---:|---|
