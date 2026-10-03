@@ -4,7 +4,7 @@ A portfolio data-science project. It tests how well we can rank emergency-depart
 
 **Scope:** This is a notebook-based research project on synthetic data. It is not a hospital system and not a clinical tool. It has no API, deployment, monitoring, streaming or cloud setup.
 
-> **Important.** The data are synthetic, which means computer-generated. Nothing in this project says anything about real patients, real hospitals or the NHS. Do not use any result here for diagnosis, triage or treatment.
+> **Important.** This project uses the AI-EMT dataset from Kaggle exactly as downloaded. That dataset is synthetic: a computer program simulated the visits, so they are not records of real patients. This project did not create the data. Nothing here says anything about real patients, real hospitals or the NHS. Do not use any result here for diagnosis, triage or treatment.
 
 ## Project outcome
 
