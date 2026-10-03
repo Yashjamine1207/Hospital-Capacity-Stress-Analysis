@@ -1,0 +1,9 @@
+target,comparison,ci_low,median,ci_high
+adverse_outcome,lightgbm minus constant_prevalence,0.3455,0.3478,0.3503
+adverse_outcome,lightgbm minus age_only,0.1475,0.1501,0.1525
+adverse_outcome,lightgbm minus logreg,0.0078,0.0086,0.0093
+adverse_outcome,lightgbm minus xgboost,0.0002,0.0005,0.0007
+readmission_30d,lightgbm minus constant_prevalence,0.0722,0.0757,0.0784
+readmission_30d,lightgbm minus age_only,0.0021,0.0028,0.0037
+readmission_30d,lightgbm minus logreg,-0.0017,-0.001,-0.0002
+readmission_30d,lightgbm minus xgboost,-0.0006,0.0003,0.0009

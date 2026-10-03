@@ -1,0 +1,139 @@
+column,status,note
+encounter_id,BOOKKEEPING,not a model feature
+arrival_year,REGIME_ONLY,exact functions of year; no usable signal for val/holdout
+arrival_month,ALLOW,known at arrival
+arrival_day,ALLOW,known at arrival
+arrival_hour,ALLOW,known at arrival
+arrival_day_of_week,ALLOW,known at arrival
+arrival_season,ALLOW,known at arrival
+is_night_shift,ALLOW,known at arrival
+is_weekend,ALLOW,known at arrival
+pandemic_period,REGIME_ONLY,exact functions of year; no usable signal for val/holdout
+covid_period_flag,REGIME_ONLY,exact functions of year; no usable signal for val/holdout
+city,ALLOW,static site attribute
+nuts2_region,ALLOW,static site attribute
+latitude,ALLOW,static site attribute
+longitude,ALLOW,static site attribute
+urban_rural,ALLOW,static site attribute
+hospital_type,ALLOW,static site attribute
+annual_ed_volume,VERIFY,varies per row inside one hospital type; meaning unknown
+bed_count_category,ALLOW,static site attribute
+age,ALLOW,demographics at arrival
+age_group,ALLOW,demographics at arrival
+gender,ALLOW,demographics at arrival
+is_pediatric,ALLOW,demographics at arrival
+is_geriatric,ALLOW,demographics at arrival
+height_cm,ALLOW,demographics at arrival
+weight_kg,ALLOW,demographics at arrival
+bmi,ALLOW,demographics at arrival
+insurance_type,ALLOW,demographics at arrival
+ses_index,ALLOW,demographics at arrival
+arrival_mode,ALLOW,triage/presentation
+triage_level,ALLOW,triage/presentation
+triage_label,ALLOW,triage/presentation
+chief_complaint,ALLOW,triage/presentation
+heart_rate_bpm,ALLOW,initial vitals
+sbp_mmhg,ALLOW,initial vitals
+dbp_mmhg,ALLOW,initial vitals
+map_mmhg,ALLOW,initial vitals
+pulse_pressure_mmhg,ALLOW,initial vitals
+respiratory_rate_rpm,ALLOW,initial vitals
+temperature_celsius,ALLOW,initial vitals
+spo2_pct,ALLOW,initial vitals
+gcs_total,ALLOW,initial vitals
+pain_score_nrs,ALLOW,initial vitals
+glucose_mgdl,LAB,"ordered during ED work-up, not at triage; decision pending"
+creatinine_mgdl,LAB,"ordered during ED work-up, not at triage; decision pending"
+bun_mgdl,LAB,"ordered during ED work-up, not at triage; decision pending"
+sodium_meql,LAB,"ordered during ED work-up, not at triage; decision pending"
+potassium_meql,LAB,"ordered during ED work-up, not at triage; decision pending"
+chloride_meql,LAB,"ordered during ED work-up, not at triage; decision pending"
+bicarbonate_meql,LAB,"ordered during ED work-up, not at triage; decision pending"
+anion_gap_meql,LAB,"ordered during ED work-up, not at triage; decision pending"
+wbc_k_ul,LAB,"ordered during ED work-up, not at triage; decision pending"
+hemoglobin_gdl,LAB,"ordered during ED work-up, not at triage; decision pending"
+hematocrit_pct,LAB,"ordered during ED work-up, not at triage; decision pending"
+platelets_k_ul,LAB,"ordered during ED work-up, not at triage; decision pending"
+inr,LAB,"ordered during ED work-up, not at triage; decision pending"
+aptt_sec,LAB,"ordered during ED work-up, not at triage; decision pending"
+lactate_mmoll,LAB,"ordered during ED work-up, not at triage; decision pending"
+troponin_i_ngml,LAB,"ordered during ED work-up, not at triage; decision pending"
+bnp_pgl,LAB,"ordered during ED work-up, not at triage; decision pending"
+crp_mgl,LAB,"ordered during ED work-up, not at triage; decision pending"
+procalcitonin_ngl,LAB,"ordered during ED work-up, not at triage; decision pending"
+ast_ul,LAB,"ordered during ED work-up, not at triage; decision pending"
+alt_ul,LAB,"ordered during ED work-up, not at triage; decision pending"
+lipase_ul,LAB,"ordered during ED work-up, not at triage; decision pending"
+d_dimer_mgfl,LAB,"ordered during ED work-up, not at triage; decision pending"
+albumin_gdl,LAB,"ordered during ED work-up, not at triage; decision pending"
+total_bilirubin_mgdl,LAB,"ordered during ED work-up, not at triage; decision pending"
+calcium_mgdl,LAB,"ordered during ED work-up, not at triage; decision pending"
+phosphorus_mgdl,LAB,"ordered during ED work-up, not at triage; decision pending"
+magnesium_mgdl,LAB,"ordered during ED work-up, not at triage; decision pending"
+uric_acid_mgdl,LAB,"ordered during ED work-up, not at triage; decision pending"
+egfr_ml_min,LAB,"ordered during ED work-up, not at triage; decision pending"
+comorbidity_hypertension,ALLOW,patient history
+comorbidity_diabetes_t2,ALLOW,patient history
+comorbidity_diabetes_t1,ALLOW,patient history
+comorbidity_coronary_artery_disease,ALLOW,patient history
+comorbidity_heart_failure,ALLOW,patient history
+comorbidity_atrial_fibrillation,ALLOW,patient history
+comorbidity_copd,ALLOW,patient history
+comorbidity_asthma,ALLOW,patient history
+comorbidity_chronic_kidney_disease,ALLOW,patient history
+comorbidity_liver_cirrhosis,ALLOW,patient history
+comorbidity_active_malignancy,ALLOW,patient history
+comorbidity_cerebrovascular_disease,ALLOW,patient history
+comorbidity_peripheral_vascular_disease,ALLOW,patient history
+comorbidity_hiv_aids,ALLOW,patient history
+comorbidity_dementia,ALLOW,patient history
+comorbidity_obesity_bmi_gte35,ALLOW,patient history
+comorbidity_hypothyroidism,ALLOW,patient history
+comorbidity_depression_anxiety,ALLOW,patient history
+charlson_comorbidity_index,ALLOW,patient history
+med_anticoagulant_use,ALLOW,patient history
+med_antiplatelet_use,ALLOW,patient history
+med_insulin_use,ALLOW,patient history
+med_oral_hypoglycemic_use,ALLOW,patient history
+med_beta_blocker_use,ALLOW,patient history
+med_ace_arb_use,ALLOW,patient history
+med_statin_use,ALLOW,patient history
+med_diuretic_use,ALLOW,patient history
+med_corticosteroid_use,ALLOW,patient history
+med_nsaid_use,ALLOW,patient history
+polypharmacy_5plus,ALLOW,patient history
+prior_ed_visits_12mo,ALLOW,patient history
+prior_hospitalization_12mo,ALLOW,patient history
+proc_iv_access,EXCLUDE,"ED intervention, after presentation"
+proc_oxygen_therapy,EXCLUDE,"ED intervention, after presentation"
+proc_ecg,EXCLUDE,"ED intervention, after presentation"
+proc_xray,EXCLUDE,"ED intervention, after presentation"
+proc_ct_scan,EXCLUDE,"ED intervention, after presentation"
+proc_ultrasound,EXCLUDE,"ED intervention, after presentation"
+proc_mri,EXCLUDE,"ED intervention, after presentation"
+proc_foley_catheter,EXCLUDE,"ED intervention, after presentation"
+proc_ngt,EXCLUDE,"ED intervention, after presentation"
+proc_intubation_ed,EXCLUDE,"ED intervention, after presentation"
+proc_cpr,EXCLUDE,"ED intervention, after presentation"
+proc_defibrillation,EXCLUDE,"ED intervention, after presentation"
+iv_fluids_ml,EXCLUDE,"ED intervention, after presentation"
+proc_vasopressor,EXCLUDE,"ED intervention, after presentation"
+proc_blood_transfusion,EXCLUDE,"ED intervention, after presentation"
+consult_requested,EXCLUDE,"ED intervention, after presentation"
+consult_specialty,EXCLUDE,"ED intervention, after presentation"
+triage_to_physician_min,EXCLUDE,"ED process time, after presentation"
+ed_los_minutes,EXCLUDE,"ED process time, after presentation"
+covid_tested,EXCLUDE,assumed ED-time test and result
+covid_positive,EXCLUDE,assumed ED-time test and result
+covid_vaccinated,ALLOW,patient history
+primary_icd10_code,EXCLUDE,final diagnosis
+primary_diagnosis,EXCLUDE,final diagnosis
+mews_score,VERIFY,assumed vitals-based; confirm in NB02
+sofa_score_approx,VERIFY,"real SOFA needs labs, ventilation, vasopressors; confirm in NB02"
+news2_score,VERIFY,assumed vitals-based; confirm in NB02
+disposition,EXCLUDE,post-decision; Kaggle says leakage
+adverse_outcome,TARGET,
+readmission_30d,TARGET,
+source,BOOKKEEPING,not a model feature
+arrival_ts,BOOKKEEPING,not a model feature
+split,BOOKKEEPING,not a model feature

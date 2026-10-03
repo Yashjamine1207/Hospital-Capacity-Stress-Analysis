@@ -1,0 +1,5 @@
+comparison,AUC (0.50 = no shift)
+2019 vs 2020 (pre-COVID vs peak),0.536
+2019 vs 2021 (pre-COVID vs ongoing),0.495
+2019 vs 2022 (pre-COVID vs post),0.565
+dev 2019-2021 vs val 2022,0.5

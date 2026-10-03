@@ -1,0 +1,14 @@
+check,result
+Rows: train,700000
+Rows: supplemental,100000
+Rows: merged,800000
+Raw columns,135
+Duplicate encounter_id (merged),0
+"Fully duplicated rows, ignoring ID",0
+Unparseable timestamps,0
+Columns with missing values,9
+Rows with DBP > SBP,32
+Rows with negative anion gap,20082
+Rows age < 5 with height >= 130 cm,19344
+Cities missing from hospital_reference,0
+ICD codes missing from icd10_reference,0

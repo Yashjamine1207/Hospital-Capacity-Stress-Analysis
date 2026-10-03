@@ -1,0 +1,15 @@
+target,held_out_region,n_val,events,prevalence,pr_auc_heldout,pr_auc_reference,diff_ci_low,diff_median,diff_ci_high,small_group,diff_point
+adverse_outcome,Aegean,17441,7079,0.4059,0.7534,0.7537,-0.0012,-0.0003,0.0008,False,-0.0003
+adverse_outcome,Black Sea,4828,1985,0.4111,0.7538,0.7538,-0.002,-0.0001,0.0019,False,0.0
+adverse_outcome,Central Anatolia,21000,8589,0.409,0.7531,0.7532,-0.001,-0.0001,0.0007,False,-0.0001
+adverse_outcome,Eastern Anatolia,6055,2506,0.4139,0.7611,0.7605,-0.001,0.0007,0.0025,False,0.0006
+adverse_outcome,Marmara,51898,21201,0.4085,0.7558,0.756,-0.0008,-0.0002,0.0006,False,-0.0002
+adverse_outcome,Mediterranean,18807,7599,0.4041,0.7574,0.7575,-0.0011,-0.0001,0.0008,False,-0.0001
+adverse_outcome,Southeastern Anatolia,13824,5656,0.4091,0.7524,0.753,-0.0018,-0.0007,0.0005,False,-0.0007
+readmission_30d,Aegean,17441,2354,0.135,0.2134,0.2131,-0.0027,0.0003,0.0031,False,0.0003
+readmission_30d,Black Sea,4828,662,0.1371,0.2126,0.2136,-0.0068,-0.0006,0.0058,False,-0.001
+readmission_30d,Central Anatolia,21000,2879,0.1371,0.2191,0.2182,-0.0022,0.0011,0.0041,False,0.001
+readmission_30d,Eastern Anatolia,6055,826,0.1364,0.2147,0.2169,-0.0068,-0.0016,0.0044,False,-0.0023
+readmission_30d,Marmara,51898,7030,0.1355,0.2148,0.2154,-0.0024,-0.0006,0.0014,False,-0.0006
+readmission_30d,Mediterranean,18807,2631,0.1399,0.2155,0.2164,-0.0033,-0.0009,0.0012,False,-0.0009
+readmission_30d,Southeastern Anatolia,13824,1827,0.1322,0.2009,0.2039,-0.0063,-0.003,0.0003,False,-0.003

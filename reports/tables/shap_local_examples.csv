@@ -1,0 +1,9 @@
+target,case,val_row,encounter_id,score,outcome,top_contributions
+adverse_outcome,true positive,20420,TR-ED-00121306,0.9912,1,age +1.26; sofa_score_approx +0.85; triage_level +0.85; gcs_total +0.55; mews_score +0.48; sbp_mmhg +0.27; charlson_comorbidity_index +0.18; news2_score +0.17
+adverse_outcome,false positive,25989,TR-ED-00154833,0.968,0,age +1.01; sofa_score_approx +0.76; gcs_total +0.70; triage_level +0.54; mews_score +0.45; sbp_mmhg +0.28; charlson_comorbidity_index +0.19; gender -0.17
+adverse_outcome,false negative,5531,TR-ED-00033101,0.04,1,age -0.58; sofa_score_approx -0.47; mews_score -0.25; gcs_total -0.24; charlson_comorbidity_index -0.23; triage_level -0.23; gender -0.21; troponin_i_ngml -0.20
+adverse_outcome,low risk,54538,TR-ED-00326471,0.0327,0,age -0.58; sofa_score_approx -0.49; mews_score -0.28; gcs_total -0.25; triage_level -0.23; charlson_comorbidity_index -0.23; gender -0.20; troponin_i_ngml -0.18
+readmission_30d,true positive,16489,TR-ED-00098022,0.4484,1,age +1.18; charlson_comorbidity_index +0.27; prior_ed_visits_12mo +0.09; chief_complaint +0.05; lactate_mmoll +0.02; glucose_mgdl +0.02; city +0.02; egfr_ml_min +0.02
+readmission_30d,false positive,61988,TR-ED-00370753,0.4287,0,age +1.15; prior_ed_visits_12mo +0.13; charlson_comorbidity_index +0.12; calcium_mgdl +0.05; lactate_mmoll +0.05; albumin_gdl +0.02; chief_complaint +0.02; sbp_mmhg +0.02
+readmission_30d,false negative,21160,TR-ED-00125773,0.0951,1,age -0.17; charlson_comorbidity_index -0.07; prior_ed_visits_12mo -0.07; chief_complaint -0.03; city -0.02; triage_level -0.01; bnp_pgl -0.01; ast_ul -0.00
+readmission_30d,low risk,34472,TR-ED-00205525,0.0937,0,age -0.17; charlson_comorbidity_index -0.07; prior_ed_visits_12mo -0.07; city -0.02; chief_complaint -0.02; triage_level -0.01; bnp_pgl -0.01; crp_mgl -0.01

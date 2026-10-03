@@ -1,0 +1,6 @@
+setting,target,seed,best_epoch,epochs_run,pr_auc,roc_auc,brier,ece,secs,lightgbm_pr_auc,gap_vs_lightgbm,architecture
+1,adverse_outcome,0,9,14,0.7455,0.7977,0.1769,0.0068,487,0.7553,-0.0098,"7 tokens, d=32, 2 layers"
+1,readmission_30d,0,5,10,0.2104,0.6022,0.1151,0.0184,299,0.2138,-0.0034,"7 tokens, d=32, 2 layers"
+3,adverse_outcome,0,10,15,0.7433,0.7968,0.1774,0.005,473,0.7553,-0.012,"37 tokens, d=16, 1 layer"
+3,readmission_30d,0,6,11,0.2072,0.6006,0.1149,0.0105,763,0.2138,-0.0067,"37 tokens, d=16, 1 layer"
+2,adverse_outcome,0,8,13,0.7433,0.7968,0.1776,0.0161,1484,0.7553,-0.012,"37 tokens, d=32, 2 layers"

@@ -1,0 +1,55 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Jupyter, Anaconda and local planning files
+.ipynb_checkpoints/
+anaconda_projects/
+_local_planning/
+scratch*.ipynb
+
+# Kaggle source and derived healthcare data. Never upload the dataset or large derived tables.
+*.zip
+data/raw/*
+data/interim/*
+data/processed/*
+data/features/*
+
+# Model files and TensorFlow checkpoints
+models/
+*.keras
+*.h5
+*.hdf5
+*.ckpt
+checkpoint
+saved_model/
+
+# Large analytical files
+*.parquet
+*.feather
+*.arrow
+*.db
+*.sqlite
+*.duckdb
+
+# Logs and caches
+logs/
+*.log
+cache/
+.cache/
+
+# Editor and system files
+.idea/
+.vscode/settings.json
+.DS_Store
+Thumbs.db
